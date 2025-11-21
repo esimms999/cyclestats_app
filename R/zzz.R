@@ -46,6 +46,6 @@
   assign("available_years", available_years, envir = .GlobalEnv)
   assign("activity_year_month_zero", activity_year_month_zero, envir = .GlobalEnv)
 
-  packageStartupMessage("cyclestats data loaded — ", nrow(activities), " rides (",
+  packageStartupMessage("cyclestats data loaded - ", nrow(activities), " rides (",
                         paste(available_years, collapse = ", "), ")")
 }
